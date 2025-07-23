@@ -59,7 +59,9 @@
       <section class="logo-name-color">
         <div class="container">
           <h1 class="logo-name">Effective Solutions for Your Business</h1>
-          <button class="button-style" type="button">Order Service</button>
+          <button class="button-style" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -512,10 +514,10 @@
     </footer>
     <!-- Modal -->
 
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
       <div class="modal">
         <!-- Кнопка закриття -->
-        <button class="modal-btn" type="button">
+        <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -613,5 +615,6 @@
         </form>
       </div>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
