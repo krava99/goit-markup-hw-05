@@ -570,9 +570,10 @@ a {
   color: #ffffff;
 }
 
-.sub-wrapper {
+.footer-sub {
   display: flex;
   gap: 24px;
+  align-items: center;
 }
 
 /* кінець футера */
@@ -586,15 +587,15 @@ a {
   background-color: rgba(46 47 66 / 40%);
 
   opacity: 1;
-  /* visibility: hidden;
-  pointer-events: none; */
+  visibility: hidden;
+  pointer-events: none;
 }
 
-/* .backdrop.is-open {
+.backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
-} */
+}
 
 .modal {
   position: absolute;
