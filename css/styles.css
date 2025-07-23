@@ -572,6 +572,12 @@ a {
   color: #ffffff;
 }
 
+.footer-sub {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
 .sub-input::placeholder {
   font-weight: 400;
   font-size: 12px;
@@ -580,11 +586,11 @@ a {
   color: #ffffff;
 }
 
-.footer-sub {
+/* .footer-sub {
   display: flex;
   gap: 24px;
   align-items: center;
-}
+} */
 
 /* кінець футера */
 
