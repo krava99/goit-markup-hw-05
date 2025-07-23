@@ -586,15 +586,15 @@ a {
   background-color: rgba(46 47 66 / 40%);
 
   opacity: 1;
-  visibility: hidden;
-  pointer-events: none;
+  /* visibility: hidden;
+  pointer-events: none; */
 }
 
-.backdrop.is-open {
+/* .backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
-}
+} */
 
 .modal {
   position: absolute;
@@ -723,7 +723,6 @@ a {
 
 .modal-form-agreement {
   display: flex;
-  justify-content: baseline;
   align-items: center;
   margin-bottom: 24px;
   font-weight: 400;
