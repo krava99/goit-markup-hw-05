@@ -810,8 +810,11 @@ a {
 
 .modal-form-checkbox-icon {
   display: none;
-  width: 10px;
-  height: 8px;
+  fill: #ffffff;
+}
+
+.modal-form-checkbox-icon:hover,
+.modal-form-checkbox-icon:focus {
   fill: #ffffff;
 }
 
