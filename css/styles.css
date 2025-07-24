@@ -798,12 +798,17 @@ a {
   fill: #ffffff;
 }
 
-.checkbox:checked + .modal-form-checkbox {
+/* .checkbox:checked + .modal-form-checkbox {
+  background-color: var(--checked-bg);
+  border: none;
+  fill: var(--checked-fill);
+} */
+
+input[type='checkbox']:checked + label .modal-form-checkbox {
   background-color: var(--checked-bg);
   border: none;
   fill: var(--checked-fill);
 }
-
 .modal-form-agreement-link {
   text-decoration: underline;
 }
