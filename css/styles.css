@@ -803,27 +803,9 @@ a {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .modal-form-agreement .checkbox:checked + .modal-form-checkbox {
+.checkbox:checked .modal-form-checkbox {
   background-color: var(--checked-bg);
   border: none;
-}
-
-.modal-form-agreement
-  .checkbox:checked
-  + .modal-form-checkbox
-  .modal-form-checkbox-icon {
-  fill: var(--checked-fill);
-} */
-
-.modal-form-agreement .checkbox:checked + .modal-form-checkbox {
-  background-color: var(--checked-bg);
-  border: none;
-}
-
-.modal-form-agreement
-  .checkbox:checked
-  + .modal-form-checkbox
-  .modal-form-checkbox-icon {
   fill: var(--checked-fill);
 }
 
