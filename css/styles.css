@@ -807,13 +807,13 @@ a {
   display: inline-flex;
 } */
 
-.modal-form-agreement input:checked + .modal-form-checkbox {
+.modal-form-agreement .checkbox:checked + .modal-form-checkbox {
   background-color: var(--checked-bg);
   border: none;
 }
 
 .modal-form-agreement
-  input:checked
+  .checkbox:checked
   + .modal-form-checkbox
   .modal-form-checkbox-icon {
   fill: var(--checked-fill);
