@@ -806,9 +806,15 @@ a {
   display: inline-flex;
 } */
 
-input:checked + .modal-form-agreement .modal-form-checkbox-icon {
-  background-color: #404bbf;
+.modal-form-agreement input:checked + .modal-form-checkbox {
+  background-color: var(--checked-bg);
   border: none;
+}
+
+.modal-form-agreement
+  input:checked
+  + .modal-form-checkbox
+  .modal-form-checkbox-icon {
   fill: var(--checked-fill);
 }
 
