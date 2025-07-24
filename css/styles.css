@@ -802,18 +802,19 @@ a {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-agreement .modal-form-checkbox {
+/* .modal-form-agreement .modal-form-checkbox {
   display: inline-flex;
-}
-
-input:checked + .modal-form-agreement .modal-form-checkbox {
-  background-color: #404bbf;
-  border: none;
-}
+} */
 
 input:checked + .modal-form-agreement .modal-form-checkbox-icon {
+  background-color: #404bbf;
+  border: none;
   fill: var(--checked-fill);
 }
+
+/* input:checked + .modal-form-agreement .modal-form-checkbox-icon {
+  fill: var(--checked-fill);
+} */
 
 .privacy-link {
   color: var(--link-color);
